@@ -1,0 +1,87 @@
+header{
+    font-size: 80px;
+    color: rgb(253, 252, 252);
+    text-align: center;
+    font-family: Optima, sans-serif;
+    font-weight: 600;
+    background-color: #607cd0;
+    border-radius: 5px;
+    padding:10px;
+}
+
+footer {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    background-color: #607cd0;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+h1{
+font-size: 50px;
+text-align: center;
+font-weight: 500;
+}
+
+p{
+font-size: 35px;
+text-align: center;
+font-weight: 500;
+}
+
+body {
+background-color: #3c5cbc;
+font-family: Optima, sans-serif;
+color: white;
+background-image:url(Plan-de-travail-1.png);
+
+background-position-y: bottom;
+background-position: center;
+margin: 0;
+padding: 0;
+display: grid;
+place-items: center; /* Centre la grille horizontalement et verticalement */
+height: 100vh; /* La hauteur prend tout l'écran */
+        }
+
+.grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
+        gap: 20px; /* Espace entre les éléments */
+        width: 80%; /* Largeur de la grille */
+        }
+
+ul {
+    list-style: none; /* Supprime les puces */
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #607cd0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+li {
+    margin: 10px 0; /* Espacement entre les éléments */
+}
+
+a {
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    color: white; /* Couleur générale des liens */
+}
+
+a:link, a:visited {
+    text-decoration: none; /* Supprime le soulignement pour les états non visités et visités */
+    color: white; /* Assure que la couleur reste uniforme */
+}
+
+a:hover, a:active {
+    text-decoration: underline; /* Facultatif : Empêche le soulignement au survol et lors du clic */
+    color: white; /* Facultatif : Ajoute une couleur pour les états interactifs */
+}
+
